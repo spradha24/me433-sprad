@@ -326,10 +326,10 @@ Disassembly of section .text:
 10000312:	04ad      	lsls	r5, r5, #18
 10000314:	f000 f80a 	bl	1000032c <gpio_init>
 10000318:	6265      	str	r5, [r4, #36]	@ 0x24
-1000031a:	20fa      	movs	r0, #250	@ 0xfa
+1000031a:	2064      	movs	r0, #100	@ 0x64
 1000031c:	6165      	str	r5, [r4, #20]
 1000031e:	f000 fd05 	bl	10000d2c <sleep_ms>
-10000322:	20fa      	movs	r0, #250	@ 0xfa
+10000322:	2064      	movs	r0, #100	@ 0x64
 10000324:	61a5      	str	r5, [r4, #24]
 10000326:	f000 fd01 	bl	10000d2c <sleep_ms>
 1000032a:	e7f6      	b.n	1000031a <main+0x12>
