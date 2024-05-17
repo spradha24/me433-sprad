@@ -688,19 +688,355 @@ SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
-SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: SPI/CMakeFiles/SPI.dir/flags.make
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: SPI/CMakeFiles/SPI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
+	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 # Object files for target SPI
 SPI_OBJECTS = \
@@ -749,7 +1085,31 @@ SPI_OBJECTS = \
 "CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 
 # External object files for target SPI
 SPI_EXTERNAL_OBJECTS =
@@ -799,11 +1159,35 @@ SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pic
 SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/Users/siddp/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/build.make
 SPI/SPI.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 SPI/SPI.elf: SPI/CMakeFiles/SPI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable SPI.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/siddp/Documents/GitHub/me433-sprad/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable SPI.elf"
 	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SPI.dir/link.txt --verbose=$(VERBOSE)
 	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-objcopy -Oihex /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI/SPI.elf SPI.hex
 	cd /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI && /opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/siddp/Documents/GitHub/me433-sprad/HW4/build/SPI/SPI.elf SPI.bin
