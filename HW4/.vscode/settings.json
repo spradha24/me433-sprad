@@ -2,4 +2,7 @@
     "cmake.environment": {
     "PICO_SDK_PATH":"/Users/siddp/Pico/pico-sdk"
     },
+    "files.associations": {
+      "compare": "c"
+    },
   }

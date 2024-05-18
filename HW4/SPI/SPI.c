@@ -17,6 +17,19 @@ static inline void cs_deselect() {
     asm volatile("nop \n nop \n nop");
 }
 
+#define DC_OFFSET 1.65
+#define AMPLITUDE 1.65
+//#define STEPS 100
+#define SINE_FREQUENCY 2
+#define TRI_FREQUENCY 1
+
+/* // sineWave array function courtesy of MicroChip website but it didn't really work so this is actually unused, just keeping for history
+void sine_wave_table(uint16_t *table, int sine_wave_steps){
+    for(int i = 0; i < SINE_WAVE_STEPS; i++) {
+        table[i] = SINE_DC_OFFSET + SINE_AMPLITUDE * sin(i * 2 * 3.1415 / SINE_WAVE_STEPS);
+    }
+}
+*/
 
 // write_register function
 static void write_register(uint8_t channel, uint16_t volt_bin) { // 1st bit channel A or B, 16st bits only 10 for the voltage, 
@@ -32,12 +45,11 @@ static void write_register(uint8_t channel, uint16_t volt_bin) { // 1st bit chan
     cs_deselect();
 }
 
-
-/*//Troubleshooting to see if write_register worked as expected
+/* //Troubleshooting to see if write_register worked as expected
 //Helper function to print the binary representation of a number
 static void print_binary(uint32_t num, int num_bits) {
     for (int i = num_bits - 1; i >= 0; i--) {
-        printf("%d", (num >> i) & 1); // Print each bit from MSB to LSB
+        printf("%d", (num >> i) & 1);
     }
 }
 
@@ -62,13 +74,19 @@ static uint16_t write_register(uint8_t channel, uint16_t volt_bin) {
 
 // converting the regular voltage input to uint16_t
 uint16_t convert_volt_out(float voltage) {
+    if (voltage < 0.0) {
+        voltage = 0.0;
+    } else if (voltage > 3.3) {
+        voltage = 3.3;
+    }
     return (uint16_t)(round(voltage*1023)/3.3);
 }
+
 
 int main() {
     stdio_init_all(); // always, turns on pins, speeds, memory
     
-    spi_init(spi_default, 500); //initialization and baud rate, using SPI0 
+    spi_init(spi_default, 10*1000000); //initialization and baud rate, using SPI0 
     gpio_set_function(PICO_DEFAULT_SPI_SCK_PIN, GPIO_FUNC_SPI); // SCK pin on Pico is GPIO18
     gpio_set_function(PICO_DEFAULT_SPI_TX_PIN, GPIO_FUNC_SPI); // TX pin on Pico is GPIO19
 
@@ -77,22 +95,61 @@ int main() {
     gpio_set_dir(PICO_DEFAULT_SPI_CSN_PIN, GPIO_OUT);
     gpio_put(PICO_DEFAULT_SPI_CSN_PIN, 1);
 
-    uint8_t channel = 1; // channel B
     //uint16_t volt_bin = 0x38C; // 0000 0011 1000 1100
     //uint16_t volt_bin = 908;
     //uint16_t volt_bin = 0x0184; // 184_6 = 388_10 = 0000 0001 1000 0100_2
-    float volt_outA = 2.5;
-    uint16_t volt_bin = convert_volt_out(volt_outA);
+    //float volt_outA = 2.5;
+    //uint16_t volt_binA = convert_volt_out(volt_outA);
+    //uint16_t sineTable[SINE_WAVE_STEPS];
+    //sine_wave_table(sineTable, SINE_WAVE_STEPS);
+    //int i = 0;
 
+    uint8_t channelA = 0; // channel A
+    uint8_t channelB = 1; // channel B
+
+    float time_A = 0.0; // optimization is not my best friend
+    float time_B = 0.0; // forgive me
+    float dt = 0.005;
 
     while (1) {
-        //printf("Volt_bin = ");
-        //print_binary(volt_bin, 10);
-        //printf("\n");
+        // channel A stuff
+        //float volt_outA = 2.5;
+        float volt_outA = DC_OFFSET + AMPLITUDE * sin(2 * 3.1415 * SINE_FREQUENCY * time_A);
+        uint16_t volt_binA = convert_volt_out(volt_outA);
+        write_register(channelA, volt_binA);
 
-        // Call write_register function
-        write_register(channel, volt_bin);
-        //sleep_ms(1000);
+        time_A += dt;
+        if (time_A >= (1.0 / SINE_FREQUENCY)) {
+            time_A = 0.0; 
+        }
+
+        // channel B stuff
+        //float volt_outB = 1;
+        float volt_outB; 
+        if (time_B < 0.25) {
+            volt_outB = DC_OFFSET + 6.6 * time_B;
+        }
+        if (time_B >= 0.25 && time_B <= 0.75) {
+            volt_outB = 3 * DC_OFFSET - 6.6 * time_B;
+        }
+        if (time_B >= 0.75 && time_B < 1) {
+            volt_outB = -3 * DC_OFFSET + 6.6 * time_B;
+        }
+        uint16_t volt_binB = convert_volt_out(volt_outB);
+        write_register(channelB, volt_binB);
+
+        time_B += dt;
+        if (time_B > (1.0 / TRI_FREQUENCY)) {
+            time_B = 0.0; 
+        }
+/*        printf("time = ");
+        printf("%3f",time_B);
+        printf("\n");
+        printf("Volt_outB = ");
+        printf("%2.2f",volt_outB);
+        printf("\n");*/
+
+        sleep_ms(10);
     }
 
     return 0;
