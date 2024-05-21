@@ -55,13 +55,13 @@ uint8_t read_chip() {
 
 void rpi_heartbeat() {
     gpio_put(LED_PIN, 1);
-    sleep_ms(175);
+    sleep_ms(45);
     gpio_put(LED_PIN, 0);
-    sleep_ms(175);
+    sleep_ms(45);
     gpio_put(LED_PIN, 1);
-    sleep_ms(175);
+    sleep_ms(45);
     gpio_put(LED_PIN, 0);
-    sleep_ms(1000);
+    sleep_ms(250);
 }
 
 int main() {
@@ -71,7 +71,7 @@ int main() {
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
 
-    i2c_init(i2c_default, 100 * 1000);
+    i2c_init(i2c_default, 400 * 1000);
     gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
 
@@ -95,9 +95,9 @@ int main() {
        
         // Part 2: control with button
         uint8_t button = read_chip();
-        printf("Button: ");
-        printf("%d", button);
-        printf("\n");
+        //printf("Button: ");
+        //printf("%d", button);
+        //printf("\n");
 
         if(button==1) {
             set(1);
@@ -109,7 +109,7 @@ int main() {
 
         //printf("End read_chip()");
         //printf("\n");
-        sleep_ms(250);
+        sleep_ms(10);
     }
 }
 
