@@ -1,25 +1,15 @@
 import matplotlib.pyplot as plt # for plotting
 
-plt.plot(t_A,data1_A,'b-*', markersize = 1)
-plt.xlabel('Time [s]')
-plt.ylabel('Signal')
-plt.title('Signal vs Time for Data A')
-plt.show()
+### PLOTTING SIGNALS
 
-plt.plot(t_B,data1_B,'g-*', markersize = 1)
-plt.xlabel('Time [s]')
-plt.ylabel('Signal')
-plt.title('Signal vs Time for Data B')
-plt.show()
-
-plt.plot(t_C,data1_C,'y-*', markersize = 1)
-plt.xlabel('Time [s]')
-plt.ylabel('Signal')
-plt.title('Signal vs Time for Data C')
-plt.show()
-
-plt.plot(t_D,data1_D,'r-*', markersize = 1)
-plt.xlabel('Time [s]')
-plt.ylabel('Signal')
-plt.title('Signal vs Time for Data D')
-plt.show()
+def plot_signals(t, data, title, color, shape, markersize):
+    plt.plot(t, data, color+shape, markersize = markersize)
+    plt.xlabel('Time [s]')
+    plt.ylabel('Signal')
+    plt.title(title)
+    plt.show()
+    
+plot_signals(tA, dataA, 'Signal A vs Time', 'b', '-*', markersize = 1)
+plot_signals(tB, dataB, 'Signal B vs Time', 'g', '-*', markersize = 1)
+plot_signals(tC, dataC, 'Signal C vs Time', 'r', '-*', markersize = 1)
+plot_signals(tD, dataD, 'Signal D vs Time', 'y', '-*', markersize = 1)
