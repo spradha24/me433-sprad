@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+### PLOTTING FFT
+
 def plot_fft(sample_rate, t, data, title, color):
     Fs = sample_rate # sample rate
     Ts = 1.0/Fs; # sampling interval
